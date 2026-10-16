@@ -21,31 +21,29 @@ import KeyboardArrowUpOutlinedIcon from "@mui/icons-material/KeyboardArrowUpOutl
 const messages = [
   {
     id: 1,
-    sender: "Victoria",
+    sender: "Hanifa",
     recipient: "Esto Safari Dreams Limited",
-    date: "Sun,09, Aug 2026, 10:15 AM",
-    subject: "Accommodation Booking Inquiry",
-    avatar: "V",
-    avatarClass: "avatar-victoria",
+    date: "Mon, 28 Sep 2026, 09:15 AM",
+    subject: "Safari Booking and Accommodation Inquiry",
+    avatar: "H",
+    avatarClass: "avatar-hanifa",
     body: (
       <>
         <p>Good day,</p>
-
         <p>
-          I am writing to inquire about accommodation arrangements for my
-          upcoming visit to Kenya. I would appreciate information regarding
-          the available accommodation options, booking requirements, and
-          airport transfer services.
+          I am writing to inquire about the arrangements for my upcoming safari
+          experience. I would appreciate information regarding the accommodation,
+          safari itinerary, transportation, and any additional services included
+          in the package.
         </p>
-
         <p>
-          Please let me know the available arrangements and the total cost.
+          Please share the proposed arrangements and let me know if you require
+          any further information from me.
         </p>
-
         <p>
           Kind regards,
           <br />
-          Victoria Madail Perez
+          Hanifa Khamisa
         </p>
       </>
     ),
@@ -53,68 +51,55 @@ const messages = [
   {
     id: 2,
     sender: "Esto Safari Dreams Limited",
-    recipient: "Victoria",
-    date: "Sun,09, Aug 2026, 11:30 AM",
-    subject: "Re: Accommodation Booking Inquiry",
+    recipient: "Hanifa Khamisa",
+    date: "Mon, 28 Sep 2026, 10:00 AM",
+    subject: "Re: Safari Booking and Accommodation Inquiry",
     avatar: "E",
     avatarClass: "avatar-esto",
     body: (
       <>
-        <p>Dear Victoria,</p>
-
-        <p>Thank you for contacting Esto Safari Dreams.</p>
-
+        <p>Dear Hanifa,</p>
+        <p>Thank you for contacting Esto Safari Dreams Limited.</p>
         <p>
-          We would be happy to assist you with your accommodation
-          arrangements. We can help coordinate your stay and discuss airport
-          transfers and other travel requirements.
+          Our team can assist with coordinating your accommodation, safari
+          activities, transportation, and itinerary. Please review the proposed
+          arrangements before treating the booking details as finalized.
         </p>
-
-        <p>
-          Please review the proposed itinerary and accommodation details
-          before confirming your arrangements.
-        </p>
-
         <p>
           Kind regards,
           <br />
           Reservations Team
           <br />
-          Esto Safari Dreams Ltd.
+          Esto Safari Dreams Limited
         </p>
       </>
     ),
   },
   {
     id: 3,
-    sender: "Victoria",
-    
+    sender: "Hanifa",
     recipient: "Esto Safari Dreams Limited",
-    date: "Sun,09, Aug 2026, 12:45 PM",
-    subject: "Re: Accommodation Details",
-    avatar: "V",
-    avatarClass: "avatar-victoria",
+    date: "Mon, 28 Sep 2026, 11:20 AM",
+    subject: "Re: Itinerary and Accommodation Details",
+    avatar: "H",
+    avatarClass: "avatar-hanifa",
     body: (
       <>
         <p>Dear Reservations Team,</p>
-
         <p>Thank you for your response.</p>
-
         <p>
-          Please share the proposed accommodation arrangements, including
-          the check-in and check-out dates, location, and any additional
-          services included in the booking.
+          Could you please provide the proposed itinerary and accommodation
+          details, including the dates of stay, locations, and services included
+          in the package?
         </p>
-
         <p>
-          I would also appreciate clarification regarding the airport
-          transfer arrangements.
+          I would also appreciate clarification regarding transportation and any
+          additional charges that may apply.
         </p>
-
         <p>
           Kind regards,
           <br />
-          Victoria
+          Hanifa Khamisa
         </p>
       </>
     ),
@@ -122,254 +107,212 @@ const messages = [
   {
     id: 4,
     sender: "Esto Safari Dreams Limited",
-    
-    recipient: "Victoria",
-    date: "Mon,10, Aug 2026, 09:00 AM",
-    subject: "Re: Proposed Travel Arrangements",
+    recipient: "Hanifa Khamisa",
+    date: "Mon, 28 Sep 2026, 01:00 PM",
+    subject: "Proposed Safari Arrangements",
     avatar: "E",
     avatarClass: "avatar-esto",
     body: (
       <>
-        <p>Dear Victoria,</p>
-
+        <p>Dear Hanifa,</p>
         <p>
-          Please find the proposed travel arrangements attached for your
-          review.
+          Please review the proposed safari itinerary using the link below.
+          Check the document details and let us know if any amendments are
+          needed.
         </p>
-
         <p>
-          <strong>Attachment:</strong>{" "}
+          <strong>Itinerary:</strong>{" "}
           <a
-            href="/Victoria_Madail_Perez_Itinerary.pdf"
+            href="/Hanifa_Khamisa_Itinerary.pdf"
             target="_blank"
             rel="noreferrer"
           >
-            Victoria_Madail_Perez_Itinerary.pdf
+            Hanifa Khamisa's itinerary (PDF)
           </a>
         </p>
-
         <p>
-          Kindly review the document and let us know if any changes are
-          required before the arrangements are finalized.
+          Please note that the itinerary document should contain the arrangements
+          that have actually been confirmed.
         </p>
-
         <p>
           Best regards,
           <br />
           Reservations Team
           <br />
-          Esto Safari Dreams Ltd.
+          Esto Safari Dreams Limited
         </p>
       </>
     ),
   },
   {
     id: 5,
-    sender: "Esto Safari Dreams Limited",
-    
-    recipient: "Victoria",
-    date: "Tue,11, Aug 2026, 02:00 PM",
-    subject: "Booking Payment Reference",
-    avatar: "E",
-    avatarClass: "avatar-esto",
+    sender: "Hanifa",
+    recipient: "Esto Safari Dreams Limited",
+    date: "Tue, 29 Sep 2026, 09:10 AM",
+    subject: "Re: Proposed Safari Arrangements",
+    avatar: "H",
+    avatarClass: "avatar-hanifa",
     body: (
       <>
-        <p>Dear Victoria,</p>
-
+        <p>Dear Reservations Team,</p>
+        <p>Thank you for sharing the itinerary information.</p>
         <p>
-          For your records, the following payment details have been provided:
+          I will review the details and would appreciate confirmation of the
+          accommodation information, travel dates, and any outstanding
+          requirements.
         </p>
-
-        <ul>
-          <li>
-            <strong>Amount:</strong> USD 265.99
-          </li>
-          <li>
-            <strong>Payment date:</strong> 11 August 2026
-          </li>
-          <li>
-            <strong>Payment method:</strong> Credit card through Booking.com
-          </li>
-          <li>
-            <strong>Transaction ID:</strong> 395767
-          </li>
-        </ul>
-
-        <p>
-          Please retain your payment documentation for reference. These
-          details alone do not establish the status of the accommodation
-          booking.
-        </p>
-
         <p>
           Kind regards,
           <br />
-          Reservations Team
-          <br />
-          Esto Safari Dreams Ltd.
+          Hanifa Khamisa
         </p>
       </>
     ),
   },
   {
     id: 6,
-    sender: "Victoria",
-    recipient: "Esto Safari Dreams Limited",
-    date: "Wed,12, Aug 2026, 03:15 PM",
-    subject: "Re: Accommodation Booking",
-    avatar: "V",
-    avatarClass: "avatar-victoria",
+    sender: "Esto Safari Dreams Limited",
+    recipient: "Hanifa Khamisa",
+    date: "Tue, 29 Sep 2026, 10:00 AM",
+    subject: "Re: Safari Arrangements",
+    avatar: "E",
+    avatarClass: "avatar-esto",
     body: (
       <>
-        <p>Dear Reservations Team,</p>
-
-        <p>Thank you for sharing the travel information.</p>
-
+        <p>Dear Hanifa,</p>
         <p>
-          Could you please confirm the final accommodation details and
-          advise whether any additional information is required from me?
+          Thank you for your message. Please use the itinerary document to review
+          the proposed details and contact our team if anything needs to be
+          corrected.
         </p>
-
         <p>
-          I would appreciate receiving the finalized itinerary once all
-          arrangements have been confirmed.
+          Any accommodation or transfer confirmation should be checked against
+          the relevant booking records before being treated as final.
         </p>
-
         <p>
           Kind regards,
           <br />
-          Victoria Madail Perez
+          Reservations Team
+          <br />
+          Esto Safari Dreams Limited
         </p>
       </>
     ),
   },
   {
     id: 7,
-    sender: "Esto Safari Dreams Limited",
-    
-    recipient: "Victoria",
-    date: "Wed,12, Aug 2026, 04:30 PM",
-    subject: "Re: Accommodation Booking – Further Details",
-    avatar: "E",
-    avatarClass: "avatar-esto",
+    sender: "Hanifa",
+    recipient: "Esto Safari Dreams Limited",
+    date: "Tue, 29 Sep 2026, 10:30 AM",
+    subject: "Re: Accommodation and Transportation",
+    avatar: "H",
+    avatarClass: "avatar-hanifa",
     body: (
       <>
-        <p>Dear Victoria,</p>
-
+        <p>Dear Reservations Team,</p>
         <p>
-          Thank you for following up regarding your accommodation
-          arrangements.
+          Could you please clarify which accommodation and transportation
+          services are included in the proposed arrangements?
         </p>
-
         <p>
-          We have noted your request for clarification on the accommodation
-          details and airport transfer arrangements. These details should
-          be reviewed against the final itinerary before any arrangements
-          are treated as confirmed.
+          Please also let me know if there are any additional charges or details
+          I should review.
         </p>
-
         <p>
           Kind regards,
           <br />
-          Reservations Team
-          <br />
-          Esto Safari Dreams Ltd.
+          Hanifa Khamisa
         </p>
       </>
     ),
   },
   {
     id: 8,
-    sender: "Victoria",
-    
-    recipient: "Esto Safari Dreams Limited",
-    date: "Wed,12, Aug 2026, 05:45 PM",
-    subject: "Re: Accommodation Booking – Further Details",
-    avatar: "V",
-    avatarClass: "avatar-victoria",
+    sender: "Esto Safari Dreams Limited",
+    recipient: "Hanifa Khamisa",
+    date: "Tue, 29 Sep 2026, 11:00 AM",
+    subject: "Re: Accommodation and Transportation",
+    avatar: "E",
+    avatarClass: "avatar-esto",
     body: (
       <>
-        <p>Dear Reservations Team,</p>
-
+        <p>Dear Hanifa,</p>
         <p>
-          Thank you for the update.
+          We have noted your questions regarding accommodation and transportation.
+          Please refer to the itinerary and the applicable booking records for
+          the services and dates that have been confirmed.
         </p>
-
         <p>
-          I would appreciate it if the accommodation address and the
-          expected check-in arrangements could be included in the final
-          itinerary so I can review the details together.
+          If you notice any discrepancy, please let us know so the information
+          can be reviewed.
         </p>
-
         <p>
-          Kind regards,
+          Best regards,
           <br />
-          Victoria Madail Perez
+          Reservations Team
+          <br />
+          Esto Safari Dreams Limited
         </p>
       </>
     ),
   },
   {
     id: 9,
-    sender: "Esto Safari Dreams Limited",
-    
-    recipient: "Victoria",
-    date: "Wed,12, Aug 2026, 06:00 PM",
-    subject: "Re: Accommodation Address and Check-In",
-    avatar: "E",
-    avatarClass: "avatar-esto",
+    sender: "Hanifa",
+    recipient: "Esto Safari Dreams Limited",
+    date: "Tue, 29 Sep 2026, 11:20 AM",
+    subject: "Re: Final Itinerary Review",
+    avatar: "H",
+    avatarClass: "avatar-hanifa",
     body: (
       <>
-        <p>Dear Victoria,</p>
-
+        <p>Dear Reservations Team,</p>
         <p>
-          We have noted your request to include the accommodation address
-          and check-in information in the itinerary.
+          Thank you for the clarification. I would appreciate having the final
+          itinerary and any applicable booking confirmations available together
+          for my records.
         </p>
-
         <p>
-          Please ensure that the final accommodation details are checked
-          and agreed upon before relying on them for your travel plans.
-        </p>
-
-        <p>
-          Best regards,
+          Kind regards,
           <br />
-          Reservations Team
-          <br />
-          Esto Safari Dreams Ltd.
+          Hanifa Khamisa
         </p>
       </>
     ),
   },
   {
     id: 10,
-    sender: "Victoria",
-    
-    recipient: "Esto Safari Dreams Limited",
-    date: "Wed,12, Aug 2026, 06:15 PM",
-    subject: "Re: Itinerary Review",
-    avatar: "V",
-    avatarClass: "avatar-victoria",
+    sender: "Esto Safari Dreams Limited",
+    recipient: "Hanifa Khamisa",
+    date: "Tue, 29 Sep 2026, 11:40 AM",
+    subject: "Re: Final Itinerary Review",
+    avatar: "E",
+    avatarClass: "avatar-esto",
     body: (
       <>
-        <p>Dear Reservations Team,</p>
-
+        <p>Dear Hanifa,</p>
         <p>
-          I am reviewing the itinerary and would like to ensure that the
-          accommodation information and travel arrangements are clearly
-          listed.
+          Thank you for following up. You can access the itinerary here:
         </p>
-
         <p>
-          Please let me know if there are any outstanding details that need
-          my attention before the itinerary can be finalized.
+          <a
+            href="/Hanifa_Khamisa_Itinerary.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open Hanifa Khamisa's itinerary (PDF)
+          </a>
         </p>
-
+        <p>
+          Please verify that the document matches the arrangements confirmed
+          with the relevant service providers.
+        </p>
         <p>
           Kind regards,
           <br />
-          Victoria
+          Reservations Team
+          <br />
+          Esto Safari Dreams Limited
         </p>
       </>
     ),
@@ -377,73 +320,62 @@ const messages = [
   {
     id: 11,
     sender: "Esto Safari Dreams Limited",
-    
-    recipient: "Victoria",
-    date: "Wed,12, Aug 2026, 06:30 PM",
-    subject: "Re: Itinerary Review",
+    recipient: "Hanifa Khamisa",
+    date: "Tue, 29 Sep 2026, 12:40 PM",
+    subject: "Payment Reference — Esto Safari Dreams Limited",
     avatar: "E",
     avatarClass: "avatar-esto",
     body: (
       <>
-        <p>Dear Victoria,</p>
-
+        <p>Dear Hanifa,</p>
         <p>
-          Thank you for reviewing the proposed itinerary.
+          The payment details supplied for this transaction are listed below
+          for recordkeeping:
         </p>
-
+        <ul>
+          <li><strong>Merchant:</strong> Esto Safari Dreams Limited</li>
+          <li><strong>Transaction ID:</strong> 3462179</li>
+          <li><strong>Transaction date:</strong> 29 September 2026</li>
+          <li><strong>Transaction time:</strong> 12:40:31</li>
+          <li><strong>Amount:</strong> USD 809.00</li>
+          <li><strong>Payment method:</strong> Credit Card</li>
+          <li><strong>Currency:</strong> USD</li>
+        </ul>
         <p>
-          The outstanding accommodation and transfer details should be
-          checked with the relevant service providers before a final
-          itinerary is issued.
+          Please retain your payment documentation for reference. These
+          transaction details alone do not establish the status of an associated
+          accommodation or safari booking.
         </p>
-
-        <p>
-          We will need to ensure that any revised document reflects the
-          arrangements that have actually been agreed.
-        </p>
-
         <p>
           Kind regards,
           <br />
-          Reservations Team
+          Accounts and Reservations Team
           <br />
-          Esto Safari Dreams Ltd.
+          Esto Safari Dreams Limited
         </p>
       </>
     ),
   },
   {
     id: 12,
-    sender: "Victoria",
-    
+    sender: "Hanifa",
     recipient: "Esto Safari Dreams Limited",
-    date: "Wed,12, Aug 2026, 06:45 PM",
-    subject: "Re: Final Accommodation Details",
-    avatar: "V",
-    avatarClass: "avatar-victoria",
+    date: "Tue, 29 Sep 2026, 01:05 PM",
+    subject: "Re: Payment Reference and Booking Details",
+    avatar: "H",
+    avatarClass: "avatar-hanifa",
     body: (
       <>
         <p>Dear Reservations Team,</p>
-
+        <p>Thank you for sharing the payment reference details.</p>
         <p>
-          Thank you for clarifying the review process.
+          Could you please advise me on the status of my booking and provide the
+          finalized itinerary and accommodation confirmation when available?
         </p>
-
-        <p>
-          Please share the revised itinerary when the accommodation
-          information and any applicable transfer details have been
-          verified.
-        </p>
-
-        <p>
-          I would like to review the complete details before considering
-          the arrangements finalized.
-        </p>
-
         <p>
           Kind regards,
           <br />
-          Victoria Madail Perez
+          Hanifa Khamisa
         </p>
       </>
     ),
@@ -451,68 +383,55 @@ const messages = [
   {
     id: 13,
     sender: "Esto Safari Dreams Limited",
-    
-    recipient: "Victoria",
-    date: "Wed,12, Aug 2026, 07:00 PM",
-    subject: "Re: Final Accommodation Details",
+    recipient: "Hanifa Khamisa",
+    date: "Tue, 29 Sep 2026, 01:30 PM",
+    subject: "Re: Booking Status and Travel Arrangements",
     avatar: "E",
     avatarClass: "avatar-esto",
     body: (
       <>
-        <p>Dear Victoria,</p>
-
+        <p>Dear Hanifa,</p>
         <p>
-          We have noted your request for the revised itinerary and complete
-          accommodation details.
+          Thank you for your message. Please refer to the itinerary and the
+          booking confirmations issued by the relevant providers for the final
+          accommodation and travel details.
         </p>
-
         <p>
-          Please use the final itinerary once the relevant arrangements
-          have been verified. Any booking confirmation or transfer
-          confirmation should be retained with your travel records.
+          If any information needs to be amended, please contact our reservations
+          team so it can be reviewed against the records.
         </p>
-
         <p>
           Best regards,
           <br />
           Reservations Team
           <br />
-          Esto Safari Dreams Ltd.
+          Esto Safari Dreams Limited
         </p>
       </>
     ),
   },
   {
     id: 14,
-    sender: "Victoria",
-    
+    sender: "Hanifa",
     recipient: "Esto Safari Dreams Limited",
-    date: "Wed,12, Aug 2026, 07:00 PM",
-    subject: "Re: Accommodation Booking – Follow-Up",
-    avatar: "V",
-    avatarClass: "avatar-victoria",
+    date: "Tue, 29 Sep 2026, 02:00 PM",
+    subject: "Re: Booking Status and Travel Arrangements",
+    avatar: "H",
+    avatarClass: "avatar-hanifa",
     body: (
       <>
         <p>Dear Reservations Team,</p>
-
         <p>
-          I am following up once more regarding the accommodation
-          arrangements and final itinerary.
+          I am following up regarding the safari arrangements and final itinerary.
+          Please let me know if any further information is required from me.
         </p>
-
         <p>
-          Could you please advise on the current status of the arrangements
-          and whether any further information is required from me?
+          Thank you for your assistance.
         </p>
-
-        <p>
-          Thank you for your assistance. I look forward to your response.
-        </p>
-
         <p>
           Kind regards,
           <br />
-          Victoria Madail Perez
+          Hanifa Khamisa
         </p>
       </>
     ),
@@ -715,13 +634,15 @@ const Conversation = () => {
                             </div>
 
                             <div className="detail-row">
-                              <span className="detail-label">mailed-by:</span>
-                              <span className="detail-value">
-                                {message.email
-                                  ? message.email.split("@")[1]
-                                  : "estosafaridreams@gmaiil.com"}
-                              </span>
-                            </div>
+  <span className="detail-label">mailed-by:</span>
+  <span className="detail-value">
+    {message.email
+      ? message.email.split("@")[1]
+      : message.sender === "Hanifa"
+        ? "hanifakhamisa@hotmail.com"
+        : "estosafaridreams@gmail.com"}
+  </span>
+</div>
                           </div>
                         )}
                       </div>
