@@ -300,7 +300,7 @@ const messages = [
             target="_blank"
             rel="noreferrer"
           >
-            Open Hanifa Khamisa's itinerary (PDF)
+            Hanifa Khamisa's itinerary (PDF)
           </a>
         </p>
         <p>
